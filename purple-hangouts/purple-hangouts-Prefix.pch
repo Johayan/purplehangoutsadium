@@ -1,0 +1,3 @@
+#import "Adium Framework/Source/AISharedAdium.h"
+#import "AIUtilities Framework/Source/AIStringUtilities.h"
+#import "/Users/john/Downloads/adium-source/adium-1.5.10.2/Plugins/Purple Service/AILibpurplePlugin.h"

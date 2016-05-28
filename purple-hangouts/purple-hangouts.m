@@ -1,18 +1,24 @@
 #import "purple-hangouts.h"
 
-@implementation purple-hangouts
+extern void purple_init_steam_plugin();
+
+@implementation purplehangouts
+
 
 - (void)installPlugin
 {
-  // Do something for when plugin is installed
-  NSLog(@"** Installed purple-hangouts Plugin");
+    purple_init_purplehangouts_plugin();
 }
 
-- (void)uninstallPlugin
-{
-  // Do something for when plugin is uninstalled
-  NSLog(@"** Uninstalled purple-hangouts Plugin");
-}
+
+- (NSString *)pluginAuthor      { return @"John Lamb, Eion Robb <eion@robbmob.com>"; }
+- (NSString *)pluginDescription { return @"Google Hangouts"; }
+- (NSString *)pluginURL         { return @"N/A"; }
+- (NSString *)pluginVersion     { return [[[NSBundle bundleForClass:[self class]] infoDictionary] objectForKey:@"CFBundleVersion"]; }
+
+- (void)uninstallPlugin {}
+- (void)installLibpurplePlugin {}
+
 
 @end
 	
