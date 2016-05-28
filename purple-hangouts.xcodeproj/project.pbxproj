@@ -3,26 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52CFCBE71CF8426900838F4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFCBE61CF8426900838F4E /* Foundation.framework */; };
-		52CFCBE91CF8426900838F4E /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CFCBE81CF8426900838F4E /* Adium.framework */; };
+		5201E13B1CF983C200334A1B /* Adium Framework in Resources */ = {isa = PBXBuildFile; fileRef = 5201E13A1CF983C200334A1B /* Adium Framework */; };
+		5201E14E1CF9868C00334A1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5201E12A1CF9817100334A1B /* Foundation.framework */; };
 		52CFCBEC1CF8426900838F4E /* purple-hangouts-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 52CFCBEB1CF8426900838F4E /* purple-hangouts-Prefix.pch */; };
 		52CFCBEE1CF8426900838F4E /* purple-hangouts-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52CFCBED1CF8426900838F4E /* purple-hangouts-Info.plist */; };
 		52CFCBF11CF8426900838F4E /* purple-hangouts.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CFCBF01CF8426900838F4E /* purple-hangouts.m */; };
+		52F588F21CF852A5001BED38 /* AIUtilities Framework in Resources */ = {isa = PBXBuildFile; fileRef = 52F588EF1CF852A5001BED38 /* AIUtilities Framework */; };
+		52F588FD1CF8561F001BED38 /* libgmodule Framework in Resources */ = {isa = PBXBuildFile; fileRef = 52F588FC1CF8561F001BED38 /* libgmodule Framework */; };
+		52F589031CF85679001BED38 /* FriBidi Framework in Resources */ = {isa = PBXBuildFile; fileRef = 52F588FF1CF85679001BED38 /* FriBidi Framework */; };
+		52F589041CF85679001BED38 /* libglib Framework in Resources */ = {isa = PBXBuildFile; fileRef = 52F589001CF85679001BED38 /* libglib Framework */; };
+		52F589051CF85679001BED38 /* libpurple Framework in Resources */ = {isa = PBXBuildFile; fileRef = 52F589011CF85679001BED38 /* libpurple Framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5201E12A1CF9817100334A1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5201E1321CF9819100334A1B /* AutoHyperlinks Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "AutoHyperlinks Framework"; path = "../hangouts-dev/adium/Frameworks/AutoHyperlinks Framework"; sourceTree = "<group>"; };
+		5201E13A1CF983C200334A1B /* Adium Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Adium Framework"; sourceTree = "<group>"; };
 		52CFCBE31CF8426900838F4E /* purple-hangouts.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "purple-hangouts.AdiumPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52CFCBE61CF8426900838F4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		52CFCBE81CF8426900838F4E /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = Library/Frameworks/Adium.framework; sourceTree = DEVELOPER_DIR; };
 		52CFCBEB1CF8426900838F4E /* purple-hangouts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "purple-hangouts-Prefix.pch"; sourceTree = "<group>"; };
 		52CFCBED1CF8426900838F4E /* purple-hangouts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "purple-hangouts-Info.plist"; sourceTree = "<group>"; };
 		52CFCBEF1CF8426900838F4E /* purple-hangouts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "purple-hangouts.h"; sourceTree = "<group>"; };
 		52CFCBF01CF8426900838F4E /* purple-hangouts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "purple-hangouts.m"; sourceTree = "<group>"; };
 		52CFCBF21CF8426900838F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F588EF1CF852A5001BED38 /* AIUtilities Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "AIUtilities Framework"; path = "../hangouts-dev/adium/Frameworks/AIUtilities Framework"; sourceTree = "<group>"; };
+		52F588FC1CF8561F001BED38 /* libgmodule Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "libgmodule Framework"; path = "../hangouts-dev/adium/Frameworks/libgmodule Framework"; sourceTree = "<group>"; };
+		52F588FF1CF85679001BED38 /* FriBidi Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "FriBidi Framework"; path = "../hangouts-dev/adium/Frameworks/FriBidi Framework"; sourceTree = "<group>"; };
+		52F589001CF85679001BED38 /* libglib Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "libglib Framework"; path = "../hangouts-dev/adium/Frameworks/libglib Framework"; sourceTree = "<group>"; };
+		52F589011CF85679001BED38 /* libpurple Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "libpurple Framework"; path = "../hangouts-dev/adium/Frameworks/libpurple Framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,8 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52CFCBE71CF8426900838F4E /* Foundation.framework in Frameworks */,
-				52CFCBE91CF8426900838F4E /* Adium.framework in Frameworks */,
+				5201E14E1CF9868C00334A1B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +51,8 @@
 		52CFCBDA1CF8426900838F4E = {
 			isa = PBXGroup;
 			children = (
-				52CFCBEA1CF8426900838F4E /* purple-hangouts */,
 				52CFCBE51CF8426900838F4E /* Frameworks */,
+				52CFCBEA1CF8426900838F4E /* purple-hangouts */,
 				52CFCBE41CF8426900838F4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,8 +68,14 @@
 		52CFCBE51CF8426900838F4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52CFCBE61CF8426900838F4E /* Foundation.framework */,
-				52CFCBE81CF8426900838F4E /* Adium.framework */,
+				5201E13A1CF983C200334A1B /* Adium Framework */,
+				5201E1321CF9819100334A1B /* AutoHyperlinks Framework */,
+				5201E12A1CF9817100334A1B /* Foundation.framework */,
+				52F588FF1CF85679001BED38 /* FriBidi Framework */,
+				52F589001CF85679001BED38 /* libglib Framework */,
+				52F589011CF85679001BED38 /* libpurple Framework */,
+				52F588FC1CF8561F001BED38 /* libgmodule Framework */,
+				52F588EF1CF852A5001BED38 /* AIUtilities Framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,7 +127,7 @@
 				};
 			};
 			buildConfigurationList = 52CFCBDE1CF8426900838F4E /* Build configuration list for PBXProject "purple-hangouts" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,7 +149,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CFCBEC1CF8426900838F4E /* purple-hangouts-Prefix.pch in Resources */,
+				52F588F21CF852A5001BED38 /* AIUtilities Framework in Resources */,
+				52F589051CF85679001BED38 /* libpurple Framework in Resources */,
+				5201E13B1CF983C200334A1B /* Adium Framework in Resources */,
+				52F589041CF85679001BED38 /* libglib Framework in Resources */,
+				52F588FD1CF8561F001BED38 /* libgmodule Framework in Resources */,
 				52CFCBEE1CF8426900838F4E /* purple-hangouts-Info.plist in Resources */,
+				52F589031CF85679001BED38 /* FriBidi Framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,9 +193,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -187,8 +210,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 			};
 			name = Debug;
 		};
@@ -212,9 +236,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -222,16 +246,29 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 			};
 			name = Release;
 		};
 		52CFCBF61CF8426900838F4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "purple-hangouts/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "bigbearjt.purple-hangouts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.11;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "x86_64 i386";
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Debug;
@@ -239,9 +276,20 @@
 		52CFCBF71CF8426900838F4E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "purple-hangouts/Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "bigbearjt.purple-hangouts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx10.11;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "x86_64 i386";
 				WRAPPER_EXTENSION = AdiumPlugin;
 			};
 			name = Release;
@@ -265,6 +313,7 @@
 				52CFCBF71CF8426900838F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
